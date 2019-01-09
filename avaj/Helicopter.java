@@ -1,6 +1,4 @@
-package com.avaj.aircraft;
-import com.avaj.simulation;
-import com.avaj.simulation.weather;
+package avaj;
 
 class Helicopter extends Aircraft{
     

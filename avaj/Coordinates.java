@@ -1,4 +1,4 @@
-package com.avaj.simulation.weather;
+package avaj;
 
 class Coordinates {
 // Attributes
@@ -8,9 +8,12 @@ class Coordinates {
 
 // Methods
     Coordinates(int longitude, int latitude, int height){
-        this.longitude = longitude;
         this.latitude = latitude;
-        this.height = height;
+        this.latitude = latitude;
+        if (height > 100)
+            this.height = 100;
+        else
+            this.height = height;
         return;
     }
 
