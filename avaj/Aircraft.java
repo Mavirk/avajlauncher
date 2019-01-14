@@ -1,22 +1,21 @@
-package avaj;
+package simulation;
 // import avaj.simulation;
 // import avaj.aircraft;
 
-class Aircraft extends Flyable {
+class Aircraft {
     protected long id;
     protected String name ;
     protected Coordinates coordinates;
-    private static long _idCounter = 0L;
-    
-    protected void Aircraft(String name, Coordinates coordinates) {
+    private static long idCounter = 0L;
+
+    protected Aircraft(String name, Coordinates coordinates) {
         this.name = name;
         this.coordinates = coordinates;
-        this._idCounter = nextId();
-        this.id = this._idCounter;
+        this.idCounter = nextId();
+        this.id = this.idCounter;
         return;   
     }
     private long nextId(){
-        long x = 0;
-        return x;
+        return (++idCounter);
     }
 }

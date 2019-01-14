@@ -1,7 +1,6 @@
-package avaj;
-// import avaj.aircraft;
+package simulation;
 
-class AircraftFactory {
+public class AircraftFactory {
     public Flyable newAircraft(String type, String name, int longitude, int latitude, int height){
         Coordinates coordinates = new Coordinates(longitude, latitude, height);
         String str = type.toLowerCase();
