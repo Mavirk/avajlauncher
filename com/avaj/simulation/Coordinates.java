@@ -1,4 +1,4 @@
-package simulation;
+package com.avaj.simulation;
 
 class Coordinates {
 // Attributes

@@ -1,4 +1,4 @@
-package simulation;
+package com.avaj.simulation;
 
 class Helicopter extends Aircraft implements Flyable{
     private WeatherTower weatherTower;

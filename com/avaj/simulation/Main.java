@@ -1,9 +1,9 @@
-package simulation;
+package com.avaj.simulation;
 
-import simulation.AircraftFactory;
-import simulation.Flyable;
-import simulation.WeatherTower;
-import simulation.WeatherProvider;
+// import simulation.AircraftFactory;
+// import simulation.Flyable;
+// import simulation.WeatherTower;
+// import simulation.WeatherProvider;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -58,7 +58,7 @@ public class Main {
         }
         else {
             try {
-                FileReader fileReader = new FileReader("scenario.txt");
+                FileReader fileReader = new FileReader(args[0]);
                 BufferedReader bufferedReader = new BufferedReader(fileReader);
                 List<String> lines = new ArrayList<>();
                 String line = null;

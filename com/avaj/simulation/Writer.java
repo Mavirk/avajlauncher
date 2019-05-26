@@ -1,4 +1,4 @@
-package simulation;
+package com.avaj.simulation;
 
 import java.io.File;
 import java.io.FileWriter;

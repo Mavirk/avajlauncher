@@ -1,4 +1,4 @@
-package simulation;
+package com.avaj.simulation;
 import java.util.Random;
 
 public class WeatherProvider{

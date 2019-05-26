@@ -1,4 +1,4 @@
-package simulation;
+package com.avaj.simulation;
 // import avaj.simulation;
 // import avaj.aircraft;
 

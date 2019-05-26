@@ -1,4 +1,4 @@
-package simulation;
+package com.avaj.simulation;
 
 public class WeatherTower extends Tower{
     public String getWeather(Coordinates coordinates) {
