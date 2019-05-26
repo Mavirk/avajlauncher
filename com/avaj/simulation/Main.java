@@ -67,7 +67,7 @@ public class Main {
                 try {
                     simCount = Integer.parseInt(lines.get(0));
                 }catch (NumberFormatException e){
-                    System.out.println("Input Error : please check line 1 -> '" + line + "'\nthis value must be and integer \n that is more than or equal to one");
+                    System.out.println("Input Error : please check line 1 -> '" + line + "' This value must be an integer that is more than or equal to one.");
                 }
 //                System.out.println("The Simulation will run " + simCount + " times.");
                 line = bufferedReader.readLine();
